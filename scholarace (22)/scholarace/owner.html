@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ScholarAce owner tools</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-head"><div class="wrap">
+    <a class="brand" href="index.html"><img src="icon.svg" alt="" width="38" height="38"><span>Scholar<b>Ace</b> <small style="font-weight:600;color:var(--muted);font-size:.7em">owner</small></span></a>
+    <a class="btn ghost small" href="index.html">Back to the site</a>
+  </div></header>
+  <main id="main" class="page"><div class="wrap">
+    <h1>Owner tools</h1>
+    <p class="muted">Only you can switch Premium on. Everything here runs in your browser and nothing is sent anywhere.</p>
+    <div class="admin-tabs" role="tablist">
+      <button role="tab" data-tab="activate" aria-selected="true">Activate a student</button>
+      <button role="tab" data-tab="verify" aria-selected="false">Verify a new student</button>
+      <button role="tab" data-tab="setup" aria-selected="false">Setup and key</button>
+      <button role="tab" data-tab="codes" aria-selected="false">Activation codes</button>
+      <button role="tab" data-tab="library" aria-selected="false">Library</button>
+      <button role="tab" data-tab="questions" aria-selected="false">Questions</button>
+      <button role="tab" data-tab="publish" aria-selected="false">How to publish</button>
+    </div>
+    <div id="pane"></div>
+  </div></main>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <script src="js/config.js"></script>
+  <script src="js/data/questions.js"></script>
+  <script src="js/library.js"></script>
+  <script src="js/codes.js"></script>
+  <script src="js/crypto.js"></script>
+  <script src="js/owner.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{ "name": "scholarace", "version": "1.0.0", "private": true, "description": "ScholarAce JAMB CBT mock exams. Open index.html, or run the optional code server.", "scripts": { "start": "node server/server.js", "dev": "DEV_SHOW_CODES=1 node server/server.js" }, "engines": { "node": ">=18" } }

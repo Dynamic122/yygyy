@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 72" role="img" aria-label="ScholarAce">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4338ca"/><stop offset="1" stop-color="#0d9488"/></linearGradient></defs>
+  <g transform="translate(4 4)">
+    <rect width="64" height="64" rx="16" fill="url(#g)"/>
+    <path d="M32 8 L53 16.5 L32 25 L11 16.5 Z" fill="#fbbf24"/>
+    <path d="M50 18.5 V28" stroke="#fbbf24" stroke-width="2.4" stroke-linecap="round"/><circle cx="50" cy="30" r="2.5" fill="#fbbf24"/>
+    <path d="M16 56 L32 29 L48 56" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="47" r="3.8" fill="#fbbf24"/>
+  </g>
+  <text x="84" y="48" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#1e1b4b">Scholar<tspan fill="#0d9488">Ace</tspan></text>
+</svg>
